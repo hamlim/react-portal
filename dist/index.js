@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { unstable_createPortal } from 'react-dom';
+import { createPortal } from 'react-dom';
 
 export default class Portal extends Component {
   constructor(...args) {
