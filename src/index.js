@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import PropTypes from 'prop-types'
 import { createPortal } from 'react-dom'
 
@@ -19,6 +19,6 @@ export default class Portal extends Component {
     if (!this._mount) {
       this._mount = this.props.provideMountPoint()
     }
-    return this.props.isOpen && unstable_createPortal(this.props.children, this._mount)
+    return this.props.isOpen && createPortal(this.props.children, this._mount)
   }
 }
