@@ -1,6 +1,6 @@
 {
   "name": "react-warp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple react 16+ portal system",
   "main": "dist/index.js",
   "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
