@@ -1,4 +1,4 @@
-# React-Portal 🌀
+# React-Warp 🌀
 
 A dead simple component to handle rendering portals.
 
@@ -14,8 +14,7 @@ Simply pass in your children and provide an `isOpen` prop:
 
 ### Under the Hood:
 
-This uses React 16's `createPortal` method which is far easier than the previous popular method `unstable_renderSubtreeIntoContainer`
-which is being deprecated over preference for `createPortal`.
+This uses React 16's `createPortal`, it also has an additional hook to allow implementers to provider their own factory function for determining where to mount the portal.
 
 ### API:
 
